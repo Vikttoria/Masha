@@ -152,16 +152,13 @@ var_dump($res);
       var_dump($arr)
       */
       
-      function van($a){
-         
-$new=array_filter(array_count_values($a),function($val)
-{
-return $val > 1 ;
-});
+  function van($a){
+    $sum = array_count_values($a);
+    array_walk($sum, function(&$count, $value) { 
+      $count = str_repeat($value, $count);    
+      print_r($sum);
+ }
 
-
-return($new);
-      }
-var_dump(van([5,5,5,1]));
-
-       ?>
+var_dump(van([8,3,2,3]));
+ ?>
+ 
