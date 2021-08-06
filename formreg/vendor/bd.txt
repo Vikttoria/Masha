@@ -1,0 +1,1 @@
+a:4:{s:5:"login";s:8:"Vikochka";s:8:"password";s:32:"9fe8593a8a330607d76796b35c64c600";s:9:"full_name";s:0:"";s:5:"email";s:0:"";}s:5:"login";s:4:"kola";s:8:"password";s:32:"0a113ef6b61820daa5611c870ed8d5ee";s:9:"full_name";s:0:"";s:5:"email";s:0:"";}
