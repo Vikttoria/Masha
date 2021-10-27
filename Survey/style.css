@@ -1,0 +1,41 @@
+body{
+   background: rgb(201, 200, 200);
+   width: 100%;
+}
+.survey{
+   
+    color: forestgreen;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center
+  
+
+}
+.knob{
+    margin: 10px;
+    background-color: #023b13;
+    -webkit-border-radius: 20px;
+    border-radius: 30px;
+    border: none;
+    color: #c9c6c6;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif; 
+    font-size: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    }
+   div p
+    {
+        border: 1px solid rgb(17, 17, 17); /* Толщина рамки в пикселах,
+                                  тип границы (в данном случае сплошная линия) и
+                                  цвет линии */
+        padding: 5px; /* Расстояние от текста до рамки */
+        
+       }
+     
+       
+   
+  
